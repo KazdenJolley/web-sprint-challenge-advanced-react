@@ -71,7 +71,7 @@ const CheckoutForm = (props) => {
 
       {showSuccessMessage && (
         <div className="success-message" data-testid="successMessage">
-          <p>
+          <p> {/* eslint-disable-next-line */}
             You have ordered some plants! Woo-hoo! <span role="img">🎉</span>
           </p>
           <p>Your new green friends will be shipped to:</p>

@@ -26,7 +26,7 @@ function App() {
     <div>
       <Router>
         <nav className="container">
-          <h1>
+          <h1> {/* eslint-disable-next-line */}
             React Plants <span role="img">🌿</span>
           </h1>
           <ul className="steps">

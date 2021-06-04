@@ -33,8 +33,8 @@ export default class PlantList extends Component {
               <p className="plant-scientific-name">{plant.scientificName}</p>
               <p>{plant.description}</p>
               <div className="plant-bottom-row">
-                <p>${plant.price}</p>
-                <p>☀️ {plant.light}</p>
+                <p>${plant.price}</p> {/* eslint-disable-next-line */}
+                <p>☀️ {plant.light}</p> {/* eslint-disable-next-line */}
                 <p>💦 {plant.watering}x/month</p>
               </div>
               <button
